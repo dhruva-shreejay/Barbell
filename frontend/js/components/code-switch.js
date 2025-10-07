@@ -1,3 +1,4 @@
+// Gibbon is the reason all of this was possible
 export default function initTabSwitches() {
   document.querySelectorAll(".code-switch").forEach((container) => {
     const options = JSON.parse(container.dataset.options);
